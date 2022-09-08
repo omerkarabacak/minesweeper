@@ -34,5 +34,9 @@ EXAMPLE:
 docker run -it ghcr.io/omerkarabacak/minesweeper:1.0 4 4
 ```
 
+### Online - replit.com
+
+https://replit.com/@OmerKARABACAK/minesweeper
+
 ## Which Python version
 Tested with 3.x
