@@ -249,4 +249,10 @@ if __name__ == "__main__":
             sys.argv[0]), MessageType.INFO)
         print_message("EXAMPLE : python3 {} 6 5".format(
             sys.argv[0]), MessageType.SUCCESS)
-        exit()
+        print()
+        print_message("Starting default 5x5 board with 5 mines",
+                      MessageType.SUCCESS)
+        input("Press Enter to continue...")
+        matrix_size = 5
+        mine_count = 5
+        run_game()
